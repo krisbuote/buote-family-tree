@@ -79,22 +79,22 @@ window.onload = function () {
 	                
 	               	
 	                { id: "Doug Collister", pid: "Ernest Buote", tags:["couple_1"], name: "Doug Collister", birth:""},
-	                { id: "Vera", pid: "Ernest Buote", tags:["couple_1"], name: "Vera Buote", birth:""},
-	                { id: "Lloyd", pid: "Ernest Buote", tags:["couple_2"], name: "Lloyd Ernest Buote", birth:""},
-	                { id: "Valtraud", pid: "Ernest Buote", tags:["couple_2"], name: "Valtraud Noack", birth:""},
-	                { id: "Vernon", pid: "Ernest Buote", tags:["couple_3"], name: "Vernon Buote", birth:""},
+	                { id: "Vera Buote", pid: "Ernest Buote", tags:["couple_1"], name: "Vera Buote", birth:""},
+	                { id: "Lloyd Buote", pid: "Ernest Buote", tags:["couple_2"], name: "Lloyd Ernest Buote", birth:""},
+	                { id: "Valtraud Noack", pid: "Ernest Buote", tags:["couple_2"], name: "Valtraud Noack", birth:""},
+	                { id: "Vernon Buote", pid: "Ernest Buote", tags:["couple_3"], name: "Vernon Buote", birth:""},
 	                { id: "Marion McElroy", pid: "Ernest Buote", tags:["couple_3"], name: "Marion McElroy", birth:""},
 	                { id: "Reginald Bradley", pid: "Ernest Buote", tags:["couple_4"], name: "Reginald (Pete) Bradley", birth:""},
-	                { id: "Geraldine", pid: "Ernest Buote", tags:["couple_4"], name: "Geraldine Buote", birth:""},
+	                { id: "Geraldine Buote", pid: "Ernest Buote", tags:["couple_4"], name: "Geraldine Buote", birth:""},
 	                { id: "Bernard Doiron", pid: "Ernest Buote", tags:["couple_5"], name: "Bernard Doiron", birth:""},
-	                { id: "Beryl", pid: "Ernest Buote", tags:["couple_5"], name: "Beryl Buote", birth:""},
+	                { id: "Beryl Buote", pid: "Ernest Buote", tags:["couple_5"], name: "Beryl Buote", birth:""},
 	                { id: "Wayne Buote", pid: "Ernest Buote", tags:["couple_6"], name: "Wayne Buote", birth:""},
 	                { id: "Lise Pare", pid: "Ernest Buote", tags:["couple_6"], name: "Lise Par'e", birth:""},
-	                { id: "Raye", pid: "Ernest Buote", tags:["couple_7"], name: "Raye Buote", birth:""},
+	                { id: "Raye Buote", pid: "Ernest Buote", tags:["couple_7"], name: "Raye Buote", birth:""},
 	                { id: "Mari Perry", pid: "Ernest Buote", tags:["couple_7"], name: "Mari Perry", birth:""},
 					{ id: "Mike Lawlor", pid: "Ernest Buote", tags:["couple_8"], name: "Mike Lawlor", birth:""},
-	                { id: "Rowena", pid: "Ernest Buote", tags:["couple_8"], name: "Rowena Buote", birth:""},
-	                { id: "Parker", pid: "Ernest Buote", name: "Parker Buote", birth:""},
+	                { id: "Rowena Buote", pid: "Ernest Buote", tags:["couple_8"], name: "Rowena Buote", birth:""},
+	                { id: "Parker Buote", pid: "Ernest Buote", name: "Parker Buote", birth:""},
 	                { id: "Glenn Buote", pid: "Ernest Buote", tags:["couple_9"], name: "Glenn Buote", birth:""},
 	                { id: "Jeanette Blanchard", pid: "Ernest Buote", tags:["couple_9"], name: "Jeanette Blanchard", birth:""},
 	                { id: "Vance Buote", pid: "Ernest Buote", name: "Vance Buote", birth:""},
@@ -106,7 +106,10 @@ window.onload = function () {
 	                { id: "Shirley Buote", pid: "Ernest Buote", tags:["couple_12"], name: "Shirley Buote", birth:""},               
 
 	                // Generation 2
-	                { id: "Jared Buote", pid: "Faren Buote", name: "Jared Buote", birth: "1990", birth:""},
+	                { id: "Christopher Buote", pid: "Wayne Buote", name: "Christopher Buote", birth: ""},
+	                { id: "Patrick Buote", pid: "Wayne Buote", name: "Patrick Buote", birth: ""},
+
+	                { id: "Jared Buote", pid: "Faren Buote", name: "Jared Buote", birth: "1990"},
 	                { id: "Kristopher Buote", pid: "Faren Buote", name: "Kristopher Buote", birth: "1994" }
 	                
 
