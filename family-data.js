@@ -1,6 +1,6 @@
 window.onload = function () {
 	var chart = new OrgChart(document.getElementById("tree"), {
-				template: "olivia",
+				template: "luba",
 	            nodeBinding: {
 	                field_0: "name",
 	                field_1: "birth_year",
@@ -209,29 +209,28 @@ window.onload = function () {
 	                { id: "Valtraud Noack", pid: "Ernest Buote", tags:["couple_2"], name: "Valtraud Noack", birth_year:"1939"},
 	                { id: "Vernon Buote", pid: "Ernest Buote", tags:["couple_3"], name: "Vernon Buote", birth_year:"1945"},
 	                { id: "Marion McElroy", pid: "Ernest Buote", tags:["couple_3"], name: "Marion McElroy", birth_year:"1946"},
-	                { id: "Reginald Bradley", pid: "Ernest Buote", tags:["couple_4"], name: "Reginald (Pete) Bradley", birth_year:""},
+	                { id: "Reginald Bradley", pid: "Ernest Buote", tags:["couple_4"], name: "Reginald (Pete) Bradley", birth_year:"1940"},
 	                { id: "Geraldine Buote", pid: "Ernest Buote", tags:["couple_4"], name: "Geraldine Buote", birth_year:"1946"},
 	                { id: "Bernard Doiron", pid: "Ernest Buote", tags:["couple_5"], name: "Bernard Doiron", birth_year:"1944"},
 	                { id: "Beryl Buote", pid: "Ernest Buote", tags:["couple_5"], name: "Beryl Buote", birth_year:"1947"},
-	                { id: "Wayne Buote", pid: "Ernest Buote", tags:["couple_6"], name: "Wayne Buote", birth_year:"1948"},
+	                { id: "Wayne Buote", pid: "Ernest Buote", tags:["couple_6"], name: "Wayne Buote", birth_year:"1948", img: "./images/Wayne Buote.jpg"},
 	                { id: "Lise Pare", pid: "Ernest Buote", tags:["couple_6"], name: "Lise Par'e", birth_year:"1946"},
 	                { id: "Raye Buote", pid: "Ernest Buote", tags:["couple_7"], name: "Raye Buote", birth_year:"1951"},
 	                { id: "Mari Perry", pid: "Ernest Buote", tags:["couple_7"], name: "Mari Perry", birth_year:"1958"},
-					{ id: "Mike Lawlor", pid: "Ernest Buote", tags:["couple_8"], name: "Mike Lawlor", birth_year:""},
+					{ id: "Mike Lawlor", pid: "Ernest Buote", tags:["couple_8"], name: "Mike Lawlor", birth_year:"1952"},
 	                { id: "Rowena Buote", pid: "Ernest Buote", tags:["couple_8"], name: "Rowena Buote", birth_year:"1954"},
 	                { id: "Parker Buote", pid: "Ernest Buote", name: "Parker Buote", birth_year:"1955"},
-	                { id: "Glenn Buote", pid: "Ernest Buote", tags:["couple_9"], name: "Glenn Buote", birth_year:"1957"},
-	                { id: "Jeanette Blanchard", pid: "Ernest Buote", tags:["couple_9"], name: "Jeanette Blanchard", birth_year:""},
+	                { id: "Glenn Buote", pid: "Ernest Buote", tags:["couple_9"], name: "Glenn Buote", birth_year:"1957", img: "./images/Glenn Buote.jpg"},
+	                { id: "Jeanette Blanchard", pid: "Ernest Buote", tags:["couple_9"], name: "Jeanette Blanchard", birth_year:"1957"},
 	                { id: "Vance Buote", pid: "Ernest Buote", name: "Vance Buote", birth_year:"1958"},
 	                { id: "Faren Buote", pid: "Ernest Buote", tags:["couple_10"], name: "Faren Regis Buote", birth_year: "1959"},
-	                { id: "Helen Buote", pid: "Ernest Buote", tags:["couple_10"], name: "Helen Rose Unruh", birth_year:""},
+	                { id: "Helen Buote", pid: "Ernest Buote", tags:["couple_10"], name: "Helen Rose Unruh", birth_year:"1954"},
 	                { id: "Selwyn Buote", pid: "Ernest Buote", tags:["couple_11"], name: "Selwyn Buote", birth_year:"1961"},
-	                { id: "Dottie Pineau", pid: "Ernest Buote", tags:["couple_11"], name: "Dottie Pineau", birth_year:""},
+	                { id: "Dottie Pineau", pid: "Ernest Buote", tags:["couple_11"], name: "Dottie Pineau", birth_year:"1965"},
 	                { id: "Trevor Buote", pid: "Ernest Buote", tags:["couple_12"], name: "Trevor Buote", birth_year:"1967"},
-	                { id: "Shirley Buote", pid: "Ernest Buote", tags:["couple_12"], name: "Shirley Buote", birth_year:""},               
+	                { id: "Shirley Buote", pid: "Ernest Buote", tags:["couple_12"], name: "Shirley Buote", birth_year:"1967"},               
 
 	                // Generation 2
-	                {id: "", pid: "", name: "", birth_year:""},
 	                {id: "Leland Collister", pid: "Vera Buote", name: "Leland Collister", birth_year:"1963"},
 	                {id: "Garner Collister", pid: "Vera Buote", tags:["couple_13"], name: "Garner Collister", birth_year:"1965"},
 	                {id: "Debbie Buote", pid: "Vera Buote", name: "Debbie Buote", tags:["couple_13"], birth_year:"1970"},
@@ -269,7 +268,7 @@ window.onload = function () {
 	                {id: "Angela Matheson", pid: "Raye Buote", name: "Angela Matheson", tags:["couple_24"], birth_year:"1979"},
 
 	                {id: "Aaron Buote Lawlor", pid: "Rowena Buote", name: "Aaron Buote Lawlor", tags:["couple_25"], birth_year:"1974"},
-	                {id: "Heidi MacKenzie", pid: "Rowena Buote", name: "Heidi MacKenzie", tags:["couple_25"], birth_year:""},
+	                {id: "Heidi MacKenzie", pid: "Rowena Buote", name: "Heidi MacKenzie", tags:["couple_25"], birth_year:"1975"},
 	                {id: "Allison Lawlor", pid: "Rowena Buote", name: "Allison Lawlor", tags:[], birth_year:"1983"},
 	                {id: "Perry Lawlor", pid: "Rowena Buote", name: "Perry Lawlor", tags:[], birth_year:"1984"},
 	                {id: "Jamie Lawlor", pid: "Rowena Buote", name: "Jamie Lawlor", tags:["couple_26"], birth_year:"1989"},
@@ -290,17 +289,48 @@ window.onload = function () {
 
 	                {id: "Amy Buote", pid: "Trevor Buote", name: "Amy Buote", tags:["couple_30"], birth_year:"1990"},
 	                {id: "Brandon Sutherland", pid: "Trevor Buote", name: "Brandon Sutherland", tags:["couple_30"], birth_year:"1986"},
-	                {id: "Jessica Buote", pid: "Trevor Buote", name: "Jessica Buote", tags:[], birth_year:"1993"}
+	                {id: "Jessica Buote", pid: "Trevor Buote", name: "Jessica Buote", tags:[], birth_year:"1993"},
 
 
 	                // Generation 3
+	                {id: "Nicholas Collister", pid: "Leland Collister", name: "Nicholas Collister", tags: ["couple_31"], birth_year: "1984"},
+	                {id: "Satu Touhimaa", pid: "Leland Collister", name: "Satu Touhimaa", tags: ["couple_31"], birth_year: "1980"},
+	                {id: "Daniel Collister", pid: "Debbie Buote", name: "Daniel Collister", tags: [], birth_year: "1998"},
+	                {id: "Hailey Collister", pid: "Debbie Buote", name: "Hailey Collister", tags: [], birth_year: "2001"},
+	                {id: "Lindsay Meadus", pid: "Charlie Meadus", name: "Lindsay Meadus", tags: [], birth_year: "1989"},
+	                {id: "Brandon Meadus", pid: "Charlie Meadus", name: "Brandon Meadus", tags: [], birth_year: "1991"},
+	                {id: "Joshua Meadus", pid: "Charlie Meadus", name: "Joshua Meadus", tags: [], birth_year: "1998"},
+	                {id: "Parker Collister", pid: "Corey Collister", name: "Parker Collister", tags: [], birth_year: "2004"},
+	                {id: "Merry Lynne Roe", pid: "Corey Collister", name: "Merry Lynne Roe", tags: [], birth_year: "1992"},
 
-	               
-	                
-	               
+	                {id: "Megan Buote", pid: "Jason Buote", name: "Megan Buote", tags: [], birth_year: "1999"},
+	                {id: "Emma Buote Mills", pid: "Melanie Buote", name: "Emma Buote Mills", tags: [], birth_year: "2008"},
+	                {id: "Sam Buote Mills", pid: "Melanie Buote", name: "Sam Buote Mills", tags: [], birth_year: "2012"},
 
-	                
-	                
+	                {id: "Laine Bradley", pid: "Mark Bradley", name: "Laine Bradley", tags: [], birth_year: "2005"},
+	                {id: "Jake Bradley", pid: "Mark Bradley", name: "Jake Bradley", tags: [], birth_year: "2007"},
+
+	                {id: "Jackson Doiron", pid: "Brent Doiron", name: "Jackson Doiron", tags: [], birth_year: "2011"},
+
+	                {id: "Dawson Perry", pid: "Darren Perry", name: "Dawson Perry", tags: [], birth_year: "2012"},
+	                {id: "Anna Perry", pid: "Darren Perry", name: "Anna Perry", tags: [], birth_year: "2019"},
+
+	                {id: "Hanna Lawlor", pid: "Aaron Buote Lawlor", name: "Hanna Lawlor", tags: [], birth_year: "2002"},
+	                {id: "Olivia Lawlor", pid: "Aaron Buote Lawlor", name: "Olivia Lawlor", tags: [], birth_year: "2004"},
+	                {id: "Miah Lawlor", pid: "Aaron Buote Lawlor", name: "Miah Lawlor", tags: [], birth_year: "2007"},
+
+	                {id: "Ayla Rose", pid: "Ashley Buote", name: "Ayla Rose", tags: [], birth_year: "2014"},
+	                {id: "Elliot Rose", pid: "Ashley Buote", name: "Elliot Rose", tags: [], birth_year: "2016"},
+
+	                {id: "Sadie Decker Miller", pid: "Brad Miller", name: "Sadie Decker Miller", tags: [], birth_year: "2009"},
+
+	                {id: "Grady Pineau", pid: "Tyler Pineau", name: "Grady Pineau", tags: [], birth_year: "2013"},
+
+	                {id: "Ayla Sutherland", pid: "Amy Buote", name: "Ayla Sutherland", tags: [], birth_year: "2019"},
+
+	                // Generation 4
+
+	                {id: "Luukas Collister", pid: "Nicholas Collister", name: "Luukas Collister", tags: [], birth_year: "2019"},
 
 	            ]
 	        });
